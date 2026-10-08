@@ -12,18 +12,19 @@ This repository doubles as its own Claude Code marketplace
 
 ## Install from GitHub (marketplace)
 
-Once this repo is pushed to GitHub (e.g. `your-user/smart_reviewer`), add it as a
-marketplace and install the plugin:
+This repo is published at
+[VitaliyZ3/claude_code_jr_plugins](https://github.com/VitaliyZ3/claude_code_jr_plugins).
+Add it as a marketplace and install the plugin:
 
 ```
-/plugin marketplace add your-user/smart_reviewer
+/plugin marketplace add VitaliyZ3/claude_code_jr_plugins
 /plugin install smart_reviewer@smart_reviewer
 ```
 
 or from the CLI:
 
 ```bash
-claude plugin marketplace add your-user/smart_reviewer
+claude plugin marketplace add VitaliyZ3/claude_code_jr_plugins
 claude plugin install smart_reviewer@smart_reviewer
 ```
 
@@ -87,8 +88,6 @@ claude --plugin-dir "$(pwd)"
 ## Publishing
 
 ```bash
-git remote add origin git@github.com:your-user/smart_reviewer.git
+git remote add origin https://github.com/VitaliyZ3/claude_code_jr_plugins.git
 git push -u origin main
 ```
-
-Replace `your-user` with the actual GitHub account/org before pushing.
