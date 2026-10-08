@@ -1,0 +1,20 @@
+{
+  "name": "smart_reviewer",
+  "description": "Marketplace for the smart_reviewer plugin: smart conventional-prefix git commits and Python code quality review.",
+  "owner": {
+    "name": "vitasiamen",
+    "email": "vitasiamen@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "smart_reviewer",
+      "description": "Smart git commit messages with conventional prefixes, and Python code quality review (anti-patterns, linters, imports, PEP 8).",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "vitasiamen",
+        "email": "vitasiamen@gmail.com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "smart_reviewer",
+  "version": "0.1.0",
+  "description": "Smart git commit messages with conventional prefixes, and Python code quality review (anti-patterns, linters, imports, PEP 8).",
+  "author": {
+    "name": "vitasiamen",
+    "email": "vitasiamen@gmail.com"
+  }
+}
