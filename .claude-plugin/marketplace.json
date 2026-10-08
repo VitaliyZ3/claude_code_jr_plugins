@@ -9,7 +9,7 @@
     {
       "name": "smart_reviewer",
       "description": "Smart git commit messages with conventional prefixes, and Python code quality review (anti-patterns, linters, imports, PEP 8).",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "./",
       "author": {
         "name": "vitasiamen",
